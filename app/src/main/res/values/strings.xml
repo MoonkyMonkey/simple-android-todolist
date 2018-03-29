@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Todo-Lists</string>
+    <string name="action_settings">设置</string>
+    <string name="first_open_text">点击加号按钮创建任务哦~</string>
+    <string name="no_to_dos">任务都完成啦~</string>
+    <string name="todo_error">请输入提醒</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@color/accent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:gravity="start|bottom"
+            android:text="新提醒"
+            android:textColor="@color/primary_lightest" />
+
+        <EditText
+            android:id="@+id/userToDoEditText"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:gravity="start|bottom"
+            android:inputType="textAutoCorrect|textCapSentences"
+            android:maxLines="2"
+            android:backgroundTint="@color/primary_light"
+            android:textColor="@color/primary_lightest" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/sendbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginRight="16dp"
+            android:clickable="true"
+            app:backgroundTint="@color/accent"
+            app:srcCompat="@drawable/ic_send_white_18dp" />
+    </LinearLayout>
+
+</LinearLayout>
